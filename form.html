@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM SITE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset
+      style="padding: 25px; border: 15px solid rgb(92, 62, 91)"
+      name="Application Form"
+    >
+      <legend style="padding: 10px; font-size: 25px; color: rgb(92, 62, 91)">
+        <strong>Application Form</strong>
+      </legend>
+      <form method="get">
+        <label for="name" class="font">Your Name </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Your Name"
+          required
+        /><br /><br />
+        <label for="dob" class="font">Date Of Birth </label>
+        <input type="date" id="dob" name="Date Of Birth" required /><br /><br />
+        <label for="age" class="font">Age </label>
+        <input
+          type="range"
+          id="age"
+          name="age"
+          min="12"
+          max="74"
+          required
+        /><br /><br />
+        <label for="adress" class="font">Address </label>
+        <br />
+        <textarea name="address" id="address" cols="10" rows="10" required>
+Enter Your Address</textarea
+        >
+        <br /><br />
+        <label for="phone" class="font">Phone Number </label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="12345-67890"
+          pattern="[0-9]{5}-[0-9]{5}"
+          required
+        /><br /><br />
+        <label class="font">Gender </label>
+        <input type="radio" id="radio" name="gender" />
+        <label for="radio" class="font"> Male</label>
+        <input type="radio" id="radio" name="gender" />
+        <label for="radio" class="font"> Female</label>
+        <input type="radio" id="radio" name="gender" />
+        <label for="radio" class="font"> Other</label><br /><br />
+        <br />
+        <label for="medium" class="font">Select Your Medium </label>
+        <select name="medium" id="medium" required>
+          <option value="English">English</option>
+          <option value="Tamil">Tamil</option>
+          <option value="Hindi">Hindi</option></select
+        ><br /><br />
+        <label for="ApplicationNo" class="font">Application Number </label>
+        <input
+          type="number"
+          id="ApplicationNo"
+          name="ApplicationNo"
+          placeholder="Enter Your ApplicationNo"
+          required
+        />
+        <br /><br />
+        <label for="checkbox" class="font">Known Languages </label><br />
+        <input type="checkbox" id="l1" name="1" value="Python" />
+        <label for="l1" class="font"> Python</label><br />
+        <input type="checkbox" id="l2" name="2" value="C/C++/C#" />
+        <label for="l2" class="font"> C/C++/C#</label><br />
+        <input type="checkbox" id="l3" name="3" value="Java" />
+        <label for="l3" class="font"> Java</label><br /><br />
+        <label for="file" class="font">Projects </label>
+        <input
+          type="file"
+          id="file"
+          name="file"
+          placeholder="Submit Your Work "
+          required
+        />
+        <br /><br />
+        <label for="color" class="font">Fav Color </label>
+        <input
+          type="color"
+          id="color"
+          name="color"
+          placeholder="Not Mandatory"
+        /><br /><br />
+        <label for="email" class="font">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@gmail.com"
+          required
+        /><br /><br />
+        <label for="password" class="font">Password </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Your Password"
+          required
+        /><br /><br />
+        <button
+          type="button"
+          onclick="alert('This is done by using button tag!')"
+        >
+          Click Here</button
+        ><br /><br />
+        <input type="checkbox" id="terms&conditions" required />
+        <label id="terms"
+          >I hereby agree to the terms and conditions of this website.</label
+        >
+        <br /><br />
+        <input type="submit" id="submit" value="Submit" /><br /><br />
+        <input type="reset" id="reset" value="Reset The Value" />
+      </form>
+    </fieldset>
+  </body>
+</html>

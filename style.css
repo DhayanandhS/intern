@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130560.jpg&fm=jpg);
+    background-repeat: repeat;
+}
+#submit{
+    padding: 10px;
+    border: 10px;
+    background-color: rgb(191, 69, 140);
+    font-size: 15px;
+}
+#reset{
+    padding: 10px;
+    border: 10px;
+    background-color: rgb(190, 61, 136);
+    font-size: 15px;
+}
+.font{
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#terms{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
